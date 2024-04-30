@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 100%;
+}
+.heading {
+    padding: 20px;
+}
+
+.all-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.logo a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 23px;
+}
+.logo a span{
+    color: #6c05f2;
+    font-size: 1.9em;
+}
+
+.logo, .contact {
+    width: 25%;
+}
+.contact {
+    text-align: right;   
+}
+.icone-band {
+    width: 22px; /* Largura desejada */
+    height: 22px; /* Altura desejada */
+}
+
+
+.menu {
+    width: auto;
+    display: flex;
+    gap: 27px;
+   
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-weight: 500;
+    font-size: 20px;
+    font-family: sans-serif;
+  
+
+}
+
+
+
+.menu-link {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-weight: 800;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.active {
+    color: #6c05f2;
+}
+
+
+
+
+.body-text {
+    padding-top: 100px;
+    max-width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.textH {
+    
+    font-family: 'Poppins', sans-serif;
+    
+}
+.textH h1 {
+    font-size: 80px; 
+    font-weight: 800; 
+    line-height: 88px;
+    font-style: normal;
+}
+.purple {
+    color: #6c05f2;
+  }
+
+.textH h2{
+        font-size: 22px;
+        font-weight: 300; 
+}
+.textH p{
+    font-size: 18px;
+    font-weight: 300; 
+    font-style: normal;
+}
+
+.circular-image-container {
+    width: 450px; /* Tamanho desejado para o contêiner */
+    height: 450px; /* Igual à largura para garantir um círculo */
+    border-radius: 50%; /* Faz com que o contêiner seja um círculo */
+    overflow: hidden; /* Garante que a imagem seja cortada para caber no círculo */
+    display: flex; /* Usa flexbox para centralizar a imagem */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    border: 1px solid rgb(150, 78, 234);
+    
+}
+
+.circular-image {
+    max-width: calc(100% - 20%); 
+    max-height: calc(100% - 20%); 
+    border-radius: 50%; 
+}
+
+
+
+.purple-button, .white-button {
+    border: 1px solid black; 
+    padding: 15px 45px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px; 
+    margin-right: 15px;
+}
+
+.purple-button {
+    background-color: #6c05f2;
+    color: white;
+}
+
+.white-button {
+    background-color: white;
+    color: black;
+}
+
+.purple-button:hover {
+    background-color: rgb(150, 78, 234);
+}
+
+.white-button:hover {
+    color: white; /* Mudando a cor do texto para branco */
+    background-color: black; /* Fundo preto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumentando a sombra ao passar o mouse */
+}
+
+
+@media only screen and (max-width: 1368px) {
+    .body-text {
+      flex-direction: column; /* Altera a direção do flex para coluna */
+      align-items: center; /* Centraliza os itens na coluna */
+    }
+  
+    .circular-image-container {
+      margin: auto; /* Adiciona margem no topo da imagem */
+    }
+  }
