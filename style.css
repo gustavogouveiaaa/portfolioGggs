@@ -10,12 +10,14 @@ body {
 }
 
 .all-menu {
+    padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
 }
 .logo a {
+    
     color: #000000;
     text-decoration: none;
     font-size: 23px;
@@ -29,8 +31,10 @@ body {
     width: 25%;
 }
 .contact {
+    padding-top: 12px;
     text-align: right;   
 }
+
 .icone-band {
     width: 22px; /* Largura desejada */
     height: 22px; /* Altura desejada */
@@ -38,6 +42,7 @@ body {
 
 
 .menu {
+    padding-top: 13px;
     width: auto;
     display: flex;
     gap: 27px;
