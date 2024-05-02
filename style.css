@@ -5,22 +5,18 @@
 body {
     max-width: 100%;
 }
-.heading {
-    padding: 20px;
-}
+
 
 .all-menu {
-    padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
 }
 .logo a {
-    
     color: #000000;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 18px;
 }
 .logo a span{
     color: #6c05f2;
@@ -28,7 +24,7 @@ body {
 }
 
 .logo, .contact {
-    width: 25%;
+    width: 26%;
 }
 .contact {
     padding-top: 12px;
@@ -111,8 +107,8 @@ body {
 }
 
 .circular-image-container {
-    width: 450px; /* Tamanho desejado para o contêiner */
-    height: 450px; /* Igual à largura para garantir um círculo */
+    width: 430px; /* Tamanho desejado para o contêiner */
+    height: 430px; /* Igual à largura para garantir um círculo */
     border-radius: 50%; /* Faz com que o contêiner seja um círculo */
     overflow: hidden; /* Garante que a imagem seja cortada para caber no círculo */
     display: flex; /* Usa flexbox para centralizar a imagem */
